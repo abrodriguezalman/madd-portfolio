@@ -16,6 +16,9 @@ function updateContent () {
     const item = data.find(i => i.id === id)
     nn.get('#title').content(item.title)
     nn.get('#date').content(item.date)
+    nn.get('#course').content(item.course)
+    nn.get('#description').content(item.description)
+    nn.get('#URL').setAttribute("href", item.url)
   }
 }
 
