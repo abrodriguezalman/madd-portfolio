@@ -18,6 +18,8 @@ function updateContent () {
     nn.get('#date').content(item.date)
     nn.get('#course').content(item.course)
     nn.get('#description').content(item.description)
+    nn.get('#materials').content(item.materials)
+    nn.get('#media').setAttribute("src", item.media)
     nn.get('#URL').setAttribute("href", item.url)
   }
 }

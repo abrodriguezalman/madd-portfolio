@@ -1,0 +1,173 @@
+/* MAIN PAGE */
+body{
+  background: linear-gradient(180deg, rgba(191, 168, 126, 1) 2%, rgba(237, 225, 202, 1) 50%, rgba(255, 246, 230, 1) 77%, rgba(255, 255, 255, 1) 100%);    
+}
+
+a{
+  text-decoration: none;
+  font-family: Gill Sans, sans-serif;
+  color: white;
+}
+
+a:hover{
+  background-color: #126E00;
+}
+
+.tree-container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/tree.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.leaf{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: circle(50% at 50% 50%);
+  background: green;
+}
+
+.profile{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: circle(50% at 50% 50%);
+  background: white;
+  top: calc(50vh - 33vw);
+  left: calc(50vw - 11vw);
+  width: 20vw;
+  height: 20vw;
+}
+
+.large{
+  width: 15vw;
+  height: 15vw;
+}
+
+.med{
+  width: 12vw;
+  height: 12vw;
+}
+
+.small{
+  width: 9vw;
+  height: 9vw;
+}
+
+.xsmall{
+  width: 7vw;
+  height: 7vw;
+}
+
+.l-1{
+  top: calc(50vh - 20vw);
+  left: calc(50vw - 30vw);
+}
+
+.l-2{
+  top: calc(50vh - 20vw);
+  left: calc(50vw + 13vw);
+}
+
+.l-3{
+  top: calc(50vh + 5vw);
+  left: calc(50vw - 45vw);
+}
+
+.l-4{
+  top: calc(50vh + 5vw);
+  left: calc(50vw + 32vw);
+}
+
+.l-5{
+  top: calc(50vh + 15vw);
+  left: calc(50vw - 35vw);
+}
+
+.l-6{
+  top: calc(50vh + 15vw);
+  left: calc(50vw + 22vw);
+}
+
+.l-7{
+  top: calc(50vh + 5vw);
+  left: calc(50vw - 20vw);
+}
+
+.l-8{
+  top: calc(50vh + 5vw);
+  left: calc(50vw + 10vw);
+}
+
+.l-9{
+  top: calc(50vh + 7vw);
+  left: calc(50vw - 9vw);
+}
+
+.l-10{
+  top: calc(50vh + 14vw);
+  left: calc(50vw - 7vw);
+}
+/* ARTWORK PAGE */
+.oval-container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  clip-path: ellipse(50% 45% at 49% 51%);
+  background-color: green;
+}
+
+.content-block{
+  position: absolute;
+  top: 19vh;
+  left: 48vw;
+}
+
+.title{
+  font-family: Gill Sans, sans-serif;
+  font-size: 5vh;
+  display: inline-block;
+  width: 80%;
+  color: white;
+}
+
+.details{
+  position: absolute;
+  font-family: Courier New, monospace;
+  font-size: 3vh;
+  color: white;
+}
+
+.date{
+  margin-top: 0px;
+}
+
+.course{
+  margin-top: 20px;
+}
+
+.materials{
+  margin-top: 40px;
+}
+
+.description{
+  margin-top: 80px;
+  font-family: Gill Sans, sans-serif;
+  font-weight: 400px;
+}
+
+.frame{
+  position: absolute;
+  top: 19vh;
+  left: 20vw;
+  width: 25vw;
+  height: 60%;
+  background-color: white;
+  border: 3px black solid;
+}

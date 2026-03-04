@@ -2,15 +2,21 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <title>Untitled</title>
+    <title>Artwork Page</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1 id="title"></h1>
-    <p id="date"></p>
-    <p id="course"></p>
-    <p id="materials"></p>
-    <p id="description"></p>
-    <a id="URL" href="#" target="_blank">url</a>
+    <div class="oval-container">
+      <img id="media" class="frame" src="filename.jpg" alt="description of image">
+      <div class="content-block">
+        <h1 id="title" class="title">Title</h1>
+        <p id="date" class="details date">date</p>
+        <p id="course" class="details course">course</p>
+        <p id="materials" class="details materials">materials</p>
+        <p id="description" class="details description">description</p>
+      </div>
+    </div>
+    <a id="URL" href="#" target="_blank"></a>
     
     <script src="https://cdn.jsdelivr.net/gh/netizenorg/netnet-standard-library/build/nn.min.js"></script>
     <script src="main.js"></script>
