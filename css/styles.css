@@ -39,7 +39,7 @@ a:hover{
   align-items: center;
   clip-path: circle(50% at 50% 50%);
   background: white;
-  top: calc(50vh - 33vw);
+  top: calc(50vh - 25vw);
   left: calc(50vw - 11vw);
   width: 20vw;
   height: 20vw;
@@ -119,7 +119,7 @@ a:hover{
   position: relative;
   width: 100%;
   height: 100vh;
-  clip-path: ellipse(50% 45% at 49% 51%);
+  clip-path: ellipse(50% 46% at 50% 51%);
   background-color: green;
 }
 
@@ -157,7 +157,7 @@ a:hover{
 }
 
 .description{
-  margin-top: 80px;
+  margin-top: 90px;
   font-family: Gill Sans, sans-serif;
   font-weight: 400px;
 }
@@ -170,4 +170,18 @@ a:hover{
   height: 60%;
   background-color: white;
   border: 3px black solid;
+}
+
+img:hover{
+  opacity: 0.7;
+}
+
+.back-main-button{
+  position: absolute;
+  top: 18vh;
+  left: 15vw;
+  width: 50px;
+  height: 50px;
+  background-color: #0A3D00;
+  clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
 }
