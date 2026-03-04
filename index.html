@@ -6,6 +6,10 @@
   </head>
   
   <style>
+    body{
+      background: linear-gradient(180deg, rgba(191, 168, 126, 1) 2%, rgba(237, 225, 202, 1) 50%, rgba(255, 246, 230, 1) 77%, rgba(255, 255, 255, 1) 100%);    
+    }
+    
     .tree-container{
       position: relative;
       width: 100%;
@@ -16,20 +20,115 @@
       background-size: contain;
     }
     
-    .leaf-one{
+    .leaf{
       position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       clip-path: circle(50% at 50% 50%);
-      top: calc(50vh - 18vw);
-      left: calc(50vw - 23vw);
-      width: 10vw;
-      height: 10vw;
       background: green;
     }
-  
+    
+    .profile{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      clip-path: circle(50% at 50% 50%);
+      background: white;
+      top: calc(50vh - 33vw);
+      left: calc(50vw - 11vw);
+      width: 20vw;
+      height: 20vw;
+    }
+    
+    .large{
+      width: 15vw;
+      height: 15vw;
+    }
+    
+    .med{
+      width: 12vw;
+      height: 12vw;
+    }
+    
+    .small{
+      width: 9vw;
+      height: 9vw;
+    }
+    
+    .xsmall{
+      width: 7vw;
+      height: 7vw;
+    }
+    
+    .l-1{
+      top: calc(50vh - 20vw);
+      left: calc(50vw - 30vw);
+    }
+    
+    .l-2{
+      top: calc(50vh - 20vw);
+      left: calc(50vw + 13vw);
+    }
+    
+    .l-3{
+      top: calc(50vh + 5vw);
+      left: calc(50vw - 45vw);
+    }
+    
+    .l-4{
+      top: calc(50vh + 5vw);
+      left: calc(50vw + 32vw);
+    }
+    
+    .l-5{
+      top: calc(50vh + 15vw);
+      left: calc(50vw - 35vw);
+    }
+    
+    .l-6{
+      top: calc(50vh + 15vw);
+      left: calc(50vw + 22vw);
+    }
+    
+    .l-7{
+      top: calc(50vh + 5vw);
+      left: calc(50vw - 20vw);
+    }
+    
+    .l-8{
+      top: calc(50vh + 5vw);
+      left: calc(50vw + 10vw);
+    }
+    
+    .l-9{
+      top: calc(50vh + 7vw);
+      left: calc(50vw - 9vw);
+    }
+    
+    .l-10{
+      top: calc(50vh + 14vw);
+      left: calc(50vw - 7vw);
+    }
+    
   </style>
   <body>
     <div class="tree-container">
-      <div class="leaf-one"></div>
+      <a class="profile" href="#artist.html">profile</a>
+      <a class="leaf large l-1" href="#artwork.html#A25-1">A25-1</a>
+      <a class="leaf large l-2" href="#artwork.html#W26-1">W26-1</a>
+      <a class="leaf med l-3" href="#artwork.html#A25-2">A25-2</a>
+      <a class="leaf med l-4" href="#artwork.html#W26-2">W26-2</a>
+      <a class="leaf med l-5" href="#artwork.html#A25-3">A25-3</a>
+      <a class="leaf med l-6" href="#artwork.html#W26-3">W26-3</a>
+      <a class="leaf small l-7" href="#artwork.html#A25-4">A25-4</a>
+      <a class="leaf small l-8" href="#artwork.html#W26-4">W26-4</a>
+      <a class="leaf xsmall l-9" href="#artwork.html#S25-1">S25-1</a>
+      <a class="leaf small l-10" href="#artwork.html#S25-2">S25-2</a>
     </div>
+    
+    <script src="https://cdn.jsdelivr.net/gh/netizenorg/netnet-standard-library/build/nn.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
