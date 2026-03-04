@@ -1,19 +1,29 @@
 /* MAIN PAGE */
-body{
-  background: linear-gradient(180deg, rgba(191, 168, 126, 1) 2%, rgba(237, 225, 202, 1) 50%, rgba(255, 246, 230, 1) 77%, rgba(255, 255, 255, 1) 100%);    
+body {
+  background: linear-gradient(180deg, rgba(191, 168, 126, 1) 2%, rgba(237, 225, 202, 1) 50%, rgba(255, 246, 230, 1) 77%, rgba(255, 255, 255, 1) 100%);
 }
 
-a{
+a {
   text-decoration: none;
   font-family: Gill Sans, sans-serif;
   color: white;
 }
 
-a:hover{
+a:hover {
   background-color: #126E00;
 }
 
-.tree-container{
+.main-title {
+  font-family: Gill Sans, sans-serif;
+  font-size: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.tree-container {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -23,7 +33,7 @@ a:hover{
   background-size: contain;
 }
 
-.leaf{
+.leaf {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -32,90 +42,94 @@ a:hover{
   background: green;
 }
 
-.profile{
+.profile {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   clip-path: circle(50% at 50% 50%);
-  background: white;
+  background-image: url(../images/profile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
   top: calc(50vh - 25vw);
   left: calc(50vw - 11vw);
   width: 20vw;
   height: 20vw;
 }
 
-.large{
+.large {
   width: 15vw;
   height: 15vw;
 }
 
-.med{
+.med {
   width: 12vw;
   height: 12vw;
 }
 
-.small{
+.small {
   width: 9vw;
   height: 9vw;
 }
 
-.xsmall{
+.xsmall {
   width: 7vw;
   height: 7vw;
 }
 
-.l-1{
+.l-1 {
   top: calc(50vh - 20vw);
   left: calc(50vw - 30vw);
 }
 
-.l-2{
+.l-2 {
   top: calc(50vh - 20vw);
   left: calc(50vw + 13vw);
 }
 
-.l-3{
+.l-3 {
   top: calc(50vh + 5vw);
   left: calc(50vw - 45vw);
 }
 
-.l-4{
+.l-4 {
   top: calc(50vh + 5vw);
   left: calc(50vw + 32vw);
 }
 
-.l-5{
+.l-5 {
   top: calc(50vh + 15vw);
   left: calc(50vw - 35vw);
 }
 
-.l-6{
+.l-6 {
   top: calc(50vh + 15vw);
   left: calc(50vw + 22vw);
 }
 
-.l-7{
+.l-7 {
   top: calc(50vh + 5vw);
   left: calc(50vw - 20vw);
 }
 
-.l-8{
+.l-8 {
   top: calc(50vh + 5vw);
   left: calc(50vw + 10vw);
 }
 
-.l-9{
+.l-9 {
   top: calc(50vh + 7vw);
   left: calc(50vw - 9vw);
 }
 
-.l-10{
+.l-10 {
   top: calc(50vh + 14vw);
   left: calc(50vw - 7vw);
 }
+
 /* ARTWORK PAGE */
-.oval-container{
+.oval-container {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -123,13 +137,13 @@ a:hover{
   background-color: green;
 }
 
-.content-block{
+.content-block {
   position: absolute;
   top: 19vh;
   left: 48vw;
 }
 
-.title{
+.title {
   font-family: Gill Sans, sans-serif;
   font-size: 5vh;
   display: inline-block;
@@ -137,32 +151,34 @@ a:hover{
   color: white;
 }
 
-.details{
+.details {
   position: absolute;
   font-family: Courier New, monospace;
+  font-style: italic;
   font-size: 3vh;
   color: white;
 }
 
-.date{
+.date {
   margin-top: 0px;
 }
 
-.course{
+.course {
   margin-top: 20px;
 }
 
-.materials{
+.materials {
   margin-top: 40px;
 }
 
-.description{
+.description {
   margin-top: 90px;
-  font-family: Gill Sans, sans-serif;
-  font-weight: 400px;
+  font-style: normal;
+  font-family: Courier New, monospace;
+  font-weight: 50px;
 }
 
-.frame{
+.frame {
   position: absolute;
   top: 19vh;
   left: 20vw;
@@ -172,11 +188,11 @@ a:hover{
   border: 3px black solid;
 }
 
-img:hover{
+img:hover {
   opacity: 0.7;
 }
 
-.back-main-button{
+.back-main-button {
   position: absolute;
   top: 18vh;
   left: 15vw;
